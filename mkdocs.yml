@@ -1,6 +1,28 @@
-site_name: Markdown book
+site_name: Die Bond Docs
 site_description: Describe what your site is about  # 设置文档网站的描述
 site_url: 'https://example.com'  # 设置文档网站的 URL
+
+nav:  # 定义导航栏
+  - Home: index.md  # 首页链接
+  - 01-Avaline_D: 01-Avaline_D.md  #
+  - 02-CCD: 02-CCD.md  # 相机
+  - 03-ClipBondCode: 03-ClipBondCode.md  #
+  - 04-ClipBondUl: 04-ClipBondUl.md  #
+  - 05-FlipBondCode: 05-FlipBondCode.md  #
+  - 06-FlipBondUl: 06-FlipBondUl.md  #
+  - 07-IntputContainer: 07-IntputContainer.md  #
+  - 08-IntputContainerUl: 08-IntputContainerUl.md  #
+  - 09-LoginUl: 09-LoginUl.md  #
+  - 10-Map: 10-Map.md  #
+  - 11-MaterialsDataDll: 11-MaterialsDataDll.md  #
+  - 12-Temperature: 12-Temperature.md  #
+  - 13-TinA: 13-TinA.md  #
+  - 14-TinAUI: 14-TinAUI.md  #
+  - 15-TinB: 15-TinB.md  #
+  - 16-TinBUI: 16-TinBUI.md  #
+  - 17-UITool: 17-UITool.md  #
+  - 18-WaferTableCode: 18-WaferTableCode.md  #
+  - 19-WaferTableUl: 19-WaferTableUl.md  #
 
 theme:
   name: material
