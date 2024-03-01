@@ -40,6 +40,13 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
+  features:
+    - navigation.top              #启用了返回页面顶部的功能
+    - search.suggest              #启用了搜索建议功能
+    - search.highlight            #启用了搜索结果高亮功能
+    - content.tabs.link           #启用了内容区域的选项卡链接功能
+    - content.code.annotation     #启用了对代码块进行注释的功能
+    - content.code.copy           #启用了复制代码块的功能
 
 markdown_extensions:
   - pymdownx.highlight:
