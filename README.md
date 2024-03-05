@@ -10,6 +10,7 @@ Die Bond 文档项目
 
 ```bash
 pip install mkdocs-material
+pip install mkdocs-minify-plugin
 ```
 
 ### 2、Creating
