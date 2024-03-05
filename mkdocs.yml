@@ -2,6 +2,58 @@ site_name: Die Bond Docs
 site_description: Describe what your site is about  # 设置文档网站的描述
 site_url: 'https://example.com'  # 设置文档网站的 URL
 
+theme:
+  name: material
+
+  language: en  # zh en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+  features:
+    - navigation.top              #启用了返回页面顶部的功能
+    - search.suggest              #启用了搜索建议功能
+    - search.highlight            #启用了搜索结果高亮功能
+    - content.tabs.link           #启用了内容区域的选项卡链接功能
+    - content.code.annotation     #启用了对代码块进行注释的功能
+    - content.code.copy           #启用了复制代码块的功能
+
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - offline
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
 nav:  # 定义导航栏
   - Home: index.md  # 首页链接
   - 01-Avaline_D: 01-Avaline_D.md  #
@@ -23,44 +75,3 @@ nav:  # 定义导航栏
   - 17-UITool: 17-UITool.md  #
   - 18-WaferTableCode: 18-WaferTableCode.md  #
   - 19-WaferTableUl: 19-WaferTableUl.md  #
-
-theme:
-  name: material
-
-  language: zh  # zh en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-  features:
-    - navigation.top              #启用了返回页面顶部的功能
-    - search.suggest              #启用了搜索建议功能
-    - search.highlight            #启用了搜索结果高亮功能
-    - content.tabs.link           #启用了内容区域的选项卡链接功能
-    - content.code.annotation     #启用了对代码块进行注释的功能
-    - content.code.copy           #启用了复制代码块的功能
-
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
