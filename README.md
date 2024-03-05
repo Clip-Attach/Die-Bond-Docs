@@ -79,3 +79,10 @@ markdown_extensions:
 ```bash
 mkdocs serve
 ```
+
+
+### 5、编译HTML
+
+```bash
+mkdocs build
+```
