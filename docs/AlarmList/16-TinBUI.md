@@ -33,3 +33,4 @@
 | 29   | AC1629     | The overall offset of Z cannot exceed 2mm upwards            | Z整体偏移向上不能大于2mm                     |
 | 30   | AC1630     | Z overall offset with a minimum upward offset of 0mm         | Z整体偏移向上偏移最小0mm                     |
 | 31   | AC1631     | The window is already open, please do not repeat the operation | 窗口已打开，请勿重复操作                     |
+| 32   | AC1632     | The included angle exceeds ± 10 °, calibration failed!       | 夹角超出±10°，标定失败！                     |

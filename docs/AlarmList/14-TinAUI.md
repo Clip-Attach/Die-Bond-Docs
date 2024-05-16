@@ -32,4 +32,5 @@
 | 28   | AC1428     | The overall offset of Z cannot exceed 2mm upwards            | Z整体偏移向上不能大于2mm                     |
 | 29   | AC1429     | Z overall offset with a minimum upward offset of 0mm         | Z整体偏移向上偏移最小0mm                     |
 | 30   | AC1430     | The window is already open, please do not repeat the operation | 窗口已打开，请勿重复操作                     |
-| 31   | AC1431     | The overall modification of XYZ data has set illegal parameters! | XYZ数据整体修改设定了非法参数！              |
+| 31   | AC1431     | The camera image collection timed out and the calibration failed! | 相机采集图片超时，标定失败！                 |
+| 32   | AC1432     | The included angle exceeds ± 10 °, calibration failed!       | 夹角超出±10°，标定失败！                     |

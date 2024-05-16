@@ -32,3 +32,7 @@
 | 28   | AC1328     | Left glue dispensing height measurement signal abnormal!     | 左点胶测高信号异常！               |
 | 29   | AC1329     | Left pre dispensing height measurement failed!               | 左预点胶测高失败！                 |
 | 30   | AC1330     | Please initialize the left workstation before starting!      | 左工位请初始化后再启动！           |
+| 31   | AC1331     | Failed to update welding line A data!                        | 更新送焊线A数据失败！              |
+| 32   | AC1332     | Left dispensing Z not in place                               | 左点胶控制器参数写入失败           |
+| 33   | AC1333     | XY has moved to the endpoint!                                | XY已移到终点！                     |
+| 34   | AC1334     | The melting speed of the welding line exceeds the maximum value: | 焊线熔化速度超出最大值:            |

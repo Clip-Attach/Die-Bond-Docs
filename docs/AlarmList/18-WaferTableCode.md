@@ -39,7 +39,6 @@
 | 35   | AC1835     | Tray Y is not in the loading and unloading position!         | 料盘Y不在加卸载位！                            |
 | 36   | AC1836     | The base of the material tray is not in the low position!    | 料盘底座不在低位！                             |
 | 37   | AC1837     | Loading wafer Y is not at the origin!                        | 加载晶圆片Y不在原点！                          |
-| 38   | AC1838     | Wafer loading Y stepper motor lost step!                     | Wafer加载Y步进电机丢步！                       |
 | 39   | AC1839     | WafetTable is not in the loading position!                   | WafetTable未在加载位！                         |
 | 40   | AC1840     | Automatic operation in progress, operation failed!           | 自动运行中，操作失败！                         |
 | 41   | AC1841     | Are you sure to load and unload the blue film?               | 你确定加卸载蓝膜吗？                           |
@@ -69,3 +68,7 @@
 | 65   | AC1865     | The base cylinder is not in high position!                   | 底座气缸不在高位！                             |
 | 66   | AC1866     | WaferTable is running!                                       | WaferTable运行中！                             |
 | 67   | AC1867     | The pushing cylinder is not in high position!                | 推顶气缸不在高位！                             |
+| 68   | AC1868     | Ejector cap vacuum detection timed out!                      | 推顶器帽真空检测超时                           |
+| 69   | AC1869     | We have reached the first floor!                             | 已到第一层！                                   |
+| 70   | AC1870     | We have reached the last level!                              | 已到最后一层层！                               |
+| 71   | AC1871     | Crystal disk A is not in the unloading position!             | 晶圆盘A未在卸载位                              |

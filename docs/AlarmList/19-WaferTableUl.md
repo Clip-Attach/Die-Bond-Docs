@@ -15,3 +15,4 @@
 | 11   | AC1911     | Obtaining welding head image Mark point cross center abnormality, calibration failed! | 获取焊头图像Mark点十字中心异常，标定失败！   |
 | 12   | AC1912     | Failed to return the WaferTable to the original point!       | 晶圆盘回原点失败！                           |
 | 13   | AC1913     | The calibration of the WaferTable center is completed!       | 晶圆环中心教导失败！                         |
+| 14   | AC1914     | The included angle exceeds ± 10 °, calibration failed!       | 夹角超出±10°，标定失败！                     |

@@ -2,7 +2,7 @@
 
 ## 介绍
 
-Die Bond 文档项目
+Die Bond 项目文档
 
 ## MkDocs 使用教程
 
@@ -10,7 +10,6 @@ Die Bond 文档项目
 
 ```bash
 pip install mkdocs-material
-pip install mkdocs-minify-plugin
 ```
 
 ### 2、Creating
@@ -80,7 +79,6 @@ markdown_extensions:
 ```bash
 mkdocs serve
 ```
-
 
 ### 5、编译HTML
 

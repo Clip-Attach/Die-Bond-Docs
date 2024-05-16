@@ -17,4 +17,3 @@
 | 13   | AC0213     | Failed to save detection parameters!                         | 保存检测参数失败!                    |
 | 14   | AC0214     | Failed to create region of interest                          | 兴趣区域创建失败                     |
 | 15   | AC0215     | Template creation failed!                                    | 模板创建失败                         |
-| 16   | AC0216     | Failed to read detection parameters!                         | 读取检测参数失败！                   |

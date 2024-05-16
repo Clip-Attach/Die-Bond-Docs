@@ -33,3 +33,5 @@
 | 29   | AC1529     | The right glue dispensing height measurement signal is abnormal! | 右点胶测高信号异常！               |
 | 30   | AC1530     | Right pre dispensing height measurement failed!              | 右预点胶测高失败！                 |
 | 31   | AC1531     | Please initialize the right workstation before starting!     | 右工位请初始化后再启动！           |
+| 32   | AC1532     | Left dispensing Z not in place                               | 右点胶控制器参数写入失败           |
+| 33   | AC1533     | XY has moved to the starting point!                          | XY已移到起点                       |
