@@ -20,6 +20,21 @@
 | bond camera      | Bond head camera | 14.3               |
 
 
+## host 在线 离线 切换
+
+![](https://easyimage.ghuang.top/i/2024/05/29/150051-1.webp)
+
+```xml
+<LST>
+  <LST>
+    <BIN>0</BIN>
+    <UI4>1</UI4>
+    <ASC>Alarm 1 Text</ASC>
+  </LST>
+</LST>
+```
+
+
 ## 任务
 
 ```yaml
@@ -69,3 +84,4 @@ str G84   E142
 ```
 
 ![](https://easyimage1.ghuang.top/i/2024/04/23/004531-1.webp)
+
