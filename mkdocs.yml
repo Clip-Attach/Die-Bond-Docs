@@ -80,13 +80,20 @@ nav:  # 定义导航栏
       - 4.2.Remote Commands: home/4.2.Remote_Commands.md
       - 4.3.Recipe Management: home/4.3.Recipe_Management.md
     - 5.Delivery Requirements:
-      - 5.1.Host report request: home/5.1.Host_Report_Request.md
-      - 5.2.Communications Manual: home/5.2.Communications_Manual.md
-      - 5.3.Automatic machine test report: home/5.3.Automatic_Machine_Test_Report.md
-    - 6.Software Tutorials:
-      - 6.1.CIMConnect: home/6.1.CIMConnect.md
-      - 6.2.EquipmentTest: home/6.2.EquipmentTest.md
-      - 6.3.Remote Connection: home/6.3.Remote_Connection.md
+      - 5.1.Remote Commands: home/5.1.Remote_Commands.md
+      - 5.2.Custom Messaging: home/5.2.Custom_Messaging.md
+      - 5.3.Recipe Management: home/5.3.Recipe_Management.md
+    - 6.E142 (No training):
+      - 6.1.Wafer Mapping: home/6.1.Wafer_Mapping.md
+      - 6.2.Strip Mapping: home/6.2.Strip_Mapping.md
+    - 7.Delivery Requirements:
+      - 7.1.Communications Manual: home/7.1.Communications_Manual.md
+      - 7.2.Trace Data Collection: home/7.2.Trace_Data_Collection.md
+      - 7.3.Communication command test: home/7.3.Communication_command_test.md
+    - 8.Software Tutorials:
+      - 8.1.CIMConnect: home/8.1.CIMConnect.md
+      - 8.2.EquipmentTest: home/8.2.EquipmentTest.md
+      - 8.3.Remote Connection: home/8.3.Remote_Connection.md
   - AlarmList:
     - 01-Avaline_D: AlarmList/01-Avaline_D.md  #
     - 02-CCD: AlarmList/02-CCD.md  # 相机
